@@ -16,6 +16,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-emotion`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-less`,
+    {
+      resolve: `gatsby-source-datocms`,
+      options: {
+        apiToken: `4ca99fdf35c0d44753220ae9cada3d`,
+        preview: false,
+        disableLiveReload: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
